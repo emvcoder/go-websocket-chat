@@ -5,3 +5,5 @@ This app is an example of usage Websocket library on Go language. It demo shows 
 1. Execute `go get github.com/emvcoder/go-websocket-chat` or download demo from github
 2. Run `go build`
 3. launch .exe file and go to `http://localhost:8080`
+
+Have fun!
