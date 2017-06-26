@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple chat</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link rel="stylesheet" href="/templates/app/styles.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/templates/app/index.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="logotype">Simple websocket chat written on Go</h1>
+		<div id="rooms"></div>
+		<div id="chat" class="container__chat"></div>
+		<div class="send">
+			<input type="text" id="send" value="" class="send__message">
+			<input type="button" id="button_send" class="send__button" value="Send message">
+			<input type="button" id="changer_nick" class="send__button" value="Change nickname">
+		</div>
+	</div>
+</body>
+</html>
